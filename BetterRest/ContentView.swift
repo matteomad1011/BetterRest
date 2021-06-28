@@ -45,7 +45,7 @@ struct ContentView: View {
             .alert(isPresented: $showingAlert, content: {
                 Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
             })
-            .navigationTitle("BetterRest")
+            .navigationTitle("Sleep Better")
             .navigationBarItems(trailing: Button(action:self.calculateBedTime){
                 Text("Calculate")
             })
